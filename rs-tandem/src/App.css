@@ -1,9 +1,10 @@
 @import 'tailwindcss';
+@plugin "daisyui";
 
 #root {
   max-width: 1600px;
   margin: 0 auto;
   /* padding: 2rem; */
   /* text-align: center; */
-  background-color: rgb(205, 234, 234);
+  background-color: rgb(245, 251, 251);
 }

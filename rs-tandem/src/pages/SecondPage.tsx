@@ -10,8 +10,12 @@ export default function SecondPage() {
       <h1>SecondPage</h1>
       <h2>{bears} around here ...</h2>
       <div className="flex gap-2">
-        <button onClick={increasePopulation}>one up</button>
-        <button onClick={removeAllBears}>clear</button>
+        <button className="btn btn-lg btn-accent" onClick={increasePopulation}>
+          one up
+        </button>
+        <button className="btn btn-lg btn-error " onClick={removeAllBears}>
+          clear
+        </button>
       </div>
     </div>
   );

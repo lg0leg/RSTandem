@@ -16,6 +16,16 @@ export default function Home() {
       <h1>RS Tandem</h1>
 
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
+
+      <div className="mt-10 ml-2 card w-96 bg-base-100 card-md shadow-sm">
+        <div className="card-body">
+          <h2 className="card-title">Medium Card</h2>
+          <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+          <div className="justify-end card-actions">
+            <button className="btn btn-primary">Buy Now</button>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
